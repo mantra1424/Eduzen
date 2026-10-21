@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@400;600;700;800&display=swap');
 
 :root {
-  --bg-base:           #f0f4f8;
+  --bg-base:           #EFF6FF;
   --bg-surface:        #ffffff;
   --bg-surface-hover:  #f1f5f9;
   --bg-card:           #ffffff;
@@ -87,8 +87,8 @@ p, span, label, div, small { color: inherit; }
 
 /* ─── SIDEBAR ─────────────────────────────────────────── */
 .sidebar {
-  background: #1e293b;
-  border-right: 1px solid #334155;
+  background: #1E40AF;
+  border-right: 1px solid #1D4ED8;
   width: var(--sidebar-width);
   flex-shrink: 0;
   padding: 1.75rem 1.25rem;
@@ -111,13 +111,13 @@ p, span, label, div, small { color: inherit; }
 
 .sidebar-version {
   font-size: 0.72rem;
-  color: #94a3b8;
+  color: #BFDBFE;
   letter-spacing: 0.08em;
   text-transform: uppercase;
   margin-bottom: 1.25rem;
 }
 
-.sidebar-caption { color: #94a3b8; font-size: 0.85rem; margin-bottom: 1.5rem; }
+.sidebar-caption { color: #BFDBFE; font-size: 0.85rem; margin-bottom: 1.5rem; }
 
 .divider {
   border: none;
@@ -125,11 +125,11 @@ p, span, label, div, small { color: inherit; }
   margin: 1rem 0;
 }
 
-.sidebar .divider { border-bottom: 1px solid #334155; }
+.sidebar .divider { border-bottom: 1px solid #3B82F6; }
 
 .profile-card {
-  background: #0f172a;
-  border: 1px solid #334155;
+  background: #1D4ED8;
+  border: 1px solid #3B82F6;
   border-radius: var(--radius-sm);
   padding: 14px;
   margin-bottom: 1rem;
@@ -145,14 +145,14 @@ p, span, label, div, small { color: inherit; }
 }
 
 .profile-name { font-size: 0.95rem; font-weight: 600; color: #f1f5f9; }
-.profile-meta { font-size: 0.78rem; color: #94a3b8; margin-top: 3px; }
+.profile-meta { font-size: 0.78rem; color: #BFDBFE; margin-top: 3px; }
 
 .nav-label {
   font-size: 0.68rem;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.1em;
-  color: #64748b;
+  color: #BFDBFE;
   margin: 14px 4px 6px;
 }
 
@@ -163,22 +163,22 @@ p, span, label, div, small { color: inherit; }
   border-radius: var(--radius-sm);
   cursor: pointer;
   font-size: 0.9rem;
-  color: #94a3b8;
+  color: #BFDBFE;
   transition: all 0.18s ease;
   display: flex; align-items: center; gap: 9px;
   font-weight: 500;
 }
 
 .nav-item:hover {
-  background: #334155;
-  color: #f1f5f9;
+  background: #1D4ED8;
+  color: #ffffff;
   transform: translateX(3px);
 }
 
 .nav-item.active {
-  background: rgba(59,130,246,0.2);
-  border-left: 3px solid #3b82f6;
-  color: #93c5fd;
+  background: rgba(255,255,255,0.15);
+  border-left: 3px solid #BFDBFE;
+  color: #ffffff;
   font-weight: 600;
   padding-left: 9px;
 }
@@ -202,7 +202,7 @@ p, span, label, div, small { color: inherit; }
 
 /* ─── HERO BANNER ───────────────────────────────────────── */
 .hero-banner {
-  background: linear-gradient(135deg, #0f172a 0%, #1e293b 60%, #1e3a5f 100%);
+  background: linear-gradient(135deg, #1D4ED8 0%, #1E40AF 50%, #2563EB 100%);
   border-radius: var(--radius);
   padding: 28px 32px;
   color: #fff;
